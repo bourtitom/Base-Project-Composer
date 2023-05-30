@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 8%;
+    border-radius: 50%;
+}
+nav{
+    width: 64%;
+    display: flex;
+    justify-content: right;
+    margin-right: 14%;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: navajowhite;
+}

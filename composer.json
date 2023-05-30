@@ -1,0 +1,13 @@
+{
+  "name": "tombourti/excomposer",
+  "description": "desc de notre application",
+  "type": "project",
+  "license": "no",
+  "autoload": {
+    "psr-4": {
+      "Excomposer\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {}
+}

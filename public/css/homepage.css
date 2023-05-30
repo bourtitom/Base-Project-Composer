@@ -1,0 +1,12 @@
+.homepage{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+#contenthomepage{
+    text-align: center;
+    font-size: 2rem;
+}
