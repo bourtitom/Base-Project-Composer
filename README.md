@@ -1,7 +1,7 @@
 # Création d'une architecture de base d'un projet sous composer
 
 
-
+**Objectif**:  > 
 
 ## Etape 1 - La structure de fichiers
 
@@ -68,12 +68,14 @@ $ composer dump-autoload
 // not found in C:\xampp\htdocs\excomposer\public\index.php:9 
 // Stack trace: #0 {main} thrown in
 // C:\xampp\htdocs\excomposer\public\index.php on line 9'
-// c'est que vous ne l'avais pas fait  
+// c'est que vous ne l'avez pas fait  
 
  
 ```
 
-//lancer : php -S localhost:8000 // dans le dossier public
+//faire les commandes :
+cd public
+php -S localhost:8000 
 
 ## Etape 3 - Le router
 
