@@ -1,9 +1,7 @@
-# Création d'un site de recherche de chanson
+# Création d'une architecture de base d'un projet sous composer
 
 
-**Objectif**:  > Corriger 2 erreurs identifiées sur le développement produit lors de l’évaluation #4  
- > Ajouter une catégorie et un chanteur en utilisant l’Ajax.
- > afficher la liste des chanteurs rock grâce à l'API
+
 
 ## Etape 1 - La structure de fichiers
 
