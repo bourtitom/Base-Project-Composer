@@ -75,6 +75,7 @@ $ composer dump-autoload
 
 //faire les commandes :
 cd public
+
 php -S localhost:8000 
 
 ## Etape 3 - Le router
