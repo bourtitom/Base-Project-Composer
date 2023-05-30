@@ -74,6 +74,7 @@ $ composer dump-autoload
 ```
 
 //faire les commandes :
+
 cd public
 
 php -S localhost:8000 
