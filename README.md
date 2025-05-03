@@ -34,7 +34,7 @@ Notre application aura la stucture suivante
 ## Etape 2 - Composer et l'autoloading
 
 - Initialiser le dossier comme étant un projet composer
-- 
+
 ```shell
 $ composer init  # crée le fichier composer.json
 $ composer install # install l'autoloader
@@ -73,11 +73,13 @@ $ composer dump-autoload
  
 ```
 
-//faire les commandes :
+## faire les commandes :
 
+```shell
 cd public
 
-php -S localhost:8000 
+php -S localhost:8000  // lancer l'application
+```
 
 ## Etape 3 - Le router
 
