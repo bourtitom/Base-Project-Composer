@@ -7,12 +7,15 @@ require '../vendor/autoload.php';
 require SRC . 'helper.php';
 
 $router = new Excomposer\Router($_SERVER["REQUEST_URI"]);
-$router->get('/', "ModelController@homepage");
+$router->get('/', "UserController@homepage");
 
-$router->get('/login/', "ModelController@showLogin");
-$router->get('/register/', "ModelController@showRegister");
+$router->get('/login/', "UserController@showLogin");
+$router->get('/register/', "UserController@showRegister");
 
-$router->post('/login/', "ModelController@login");
-$router->post('/register/', "ModelController@store");
+$router->post('/login/', "UserController@login");
+$router->post('/register/', "UserController@register");
+
+$router->get('/logout/', "UserController@logout");
+
 
 $router->run();

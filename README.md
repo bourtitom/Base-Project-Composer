@@ -14,10 +14,10 @@ Notre application aura la stucture suivante
         image/
     src/
         Controllers/
-            ModelsController.php
+            UserController.php
         Models/
-            Models.php
-            ModelsManager.php
+            User.php
+            UserManager.php
         Views/
             PageViews/
                 index.php
@@ -88,4 +88,3 @@ Voici la liste de route implementée:
 - "/register/", GET => affichage du register en get
 - "/login", POST => se connecte si le compte existe 
 - "/register", POST => créer un compte 
-

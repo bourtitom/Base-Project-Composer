@@ -26,9 +26,9 @@ class Route {
     }
 
     public function call() {
-         $rep = explode("@", $this->callable);
-         $controller = "Excomposer\\Controllers\\".$rep[0];
-         $controller = new $controller();
+        $rep = explode("@", $this->callable);
+        $controller = "Excomposer\\Controllers\\".$rep[0];
+        $controller = new $controller();
 
         return call_user_func_array([$controller, $rep[1]], $this->matches);
     }

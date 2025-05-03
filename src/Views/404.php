@@ -2,12 +2,18 @@
 ob_start();
 
 ?>
+<link rel="stylesheet" href="/css/404.css">
 
-<section class="error">
-    <h1>Erreur 404</h1>
 
-    <p>La page rechercher n'existe pas ! <a href="/dashboard">Quitter cette page !</a></p>
-</section>
+<div class="pyramid-loader">
+  <div class="wrapper">
+    <span class="side side1"></span>
+    <span class="side side2"></span>
+    <span class="side side3"></span>
+    <span class="side side4"></span>
+    <span class="shadow"></span>
+  </div>  
+</div>
 
 <?php
 

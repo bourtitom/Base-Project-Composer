@@ -9,5 +9,7 @@
     }
   },
   "minimum-stability": "stable",
-  "require": {}
+  "require": {
+    "awssat/tailwindo": "^3.0"
+  }
 }
