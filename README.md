@@ -86,5 +86,8 @@ Voici la liste de route implementée:
 - "/", GET => Accueil
 - "/login/", GET => affichage du login en get
 - "/register/", GET => affichage du register en get
-- "/login", POST => se connecte si le compte existe 
-- "/register", POST => créer un compte 
+- "/logout/", GET => deconnexion
+- "/docs/", GET => docs pour expliquez le projet
+
+- "/login/", POST => se connecte si le compte existe 
+- "/register/", POST => créer un compte 

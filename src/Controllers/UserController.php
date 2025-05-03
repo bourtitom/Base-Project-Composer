@@ -28,6 +28,10 @@ class UserController {
 
         require VIEWS . 'Auth/register.php';
     }
+    public function docs(){
+
+        require VIEWS . 'PageViews/docs.php';
+    }
     public function logout()
     {
         session_destroy();

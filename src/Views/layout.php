@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exemple - Composer</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/css/layout.css">
-    <link rel="stylesheet" href="/css/homepage.css">
-    <link rel="icon" type="image/jpg" href="/image/FAVlogo.png" />
 
 </head>
 <body>
